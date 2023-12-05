@@ -11,7 +11,7 @@ const Container = styled.div`
  font-weight:500;`
 
 
-const Accouncement = () => {
+const Announcement = () => {
   return (
    
       <Container>
@@ -21,4 +21,4 @@ const Accouncement = () => {
   )
 }
 
-export default Accouncement
+export default Announcement;

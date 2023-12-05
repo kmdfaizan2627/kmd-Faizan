@@ -3,7 +3,7 @@ export const SliderItems = [{
     img:"https://i.postimg.cc/76ckxGz4/Smiling-little-boy-HD-picture-removebg-preview.png",
     title:"Boys & Girls Full Sleeve Printed Sweatshirt",
     desc:"Kid's winter wear set of Full T-shirt and Jogger (Pack of 2 sets ) | Light winter Fleece fabric wear for kids | Full T-shirts and lower for Kids | Winter wear for kids | Full T-shirts for winter | Set of full T-shirt and lower for kids",
-   
+    
 },{
     id:1,
     img:"https://i.postimg.cc/GtjhbPkf/hakuna-matata-kids-t-shirt-india-525x700-1.png",

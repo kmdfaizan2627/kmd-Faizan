@@ -4,9 +4,9 @@ import SearchIcon from '@mui/icons-material/Search';
 import BadgeIcon from '@mui/icons-material/Badge';
 
 const Container = styled.div`
-color:blue;
+color:white;
 height: 60px;
-background:white;
+background:Grey;
 padding: 10px 20px;
 overflow:hidden;`
 
@@ -70,7 +70,7 @@ return (
         <Input/>
             <SearchIcon style={{color:"grey", fontsize:14}}/>
         </SearchContainer><Left></Left>
-         <Center><Logo>SIMPLE-FIT</Logo></Center>
+         <Center><Logo>Amazone</Logo></Center>
       <Right><MenuItem>REGISTER</MenuItem>
              <MenuItem>SIGN IN</MenuItem>
              <MenuItem>

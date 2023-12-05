@@ -8,26 +8,25 @@ import {SliderItems} from  "../Data"
 
 
 const Container = styled.div`
-width:100%;
+ width:100%;
  height:100vh;
  display:flex;
  position:relative;
  margin-top:20px;
  overflow :hidden;
- 
+ margin-top:0;
 
  
 `
 const Arrow = styled.div`
  width:50px;
  height:50px;
-
  border-radius:50%;
  display:flex;
  align-item:center;
  justify-content:center;
  position:absolute;
-top:0;
+ top:0;
  margin: auto;
  bottom:0;
  left:${props=> props.direction ==="left"&& "10px"};
@@ -51,7 +50,7 @@ align-item:center;
 width:100vw;
 height:100vh;
 flex:1;
-background-color:SKY;
+background-color:#FFCBA4;
 background-color:#${(props)=>props.bg}
 
 `;
@@ -144,6 +143,7 @@ else{
      
 
   <Arrow direction="right" onClick={()=>handleClick("right")}>
+ 
   <ArrowRightIcon/>
     </Arrow>
 </Container>

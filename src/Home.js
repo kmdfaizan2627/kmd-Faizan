@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Pages/Navbar";
-import Accouncement from "./Pages/Accouncement"
+import Announcement from "./Pages/Announcement"
 import Slider from "./Pages/Slider";
 import Nextpage from "./Pages/Nextpage";
 import Nextspage from "./Pages/Nextspage";
@@ -9,7 +9,7 @@ import Footer from "./Pages/Footer"
 const Home =()=>{
   return(
   <div>
-    <Accouncement/>
+    <Announcement/>
     <Navbar/>
     <Slider/>
     <Nextpage/>
